@@ -1,0 +1,7 @@
+%predicate to determine if a list has an evern number of elements,
+% without countinf the elements
+% evenList(L:list)
+% evenList(i)
+
+evenList([]).
+evenList([_,_|T]) :-evenList(T).
